@@ -4,10 +4,13 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestApplicationTests {
+public class TestApplicationTests {
+    private final String s = "我是%s的规范化%s";
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
+        String sss = String.format(s, "神","仙");
+        System.out.println(sss);
     }
 
 }
