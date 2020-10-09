@@ -12,7 +12,4 @@ public class TestApplication {
         SpringApplication.run(TestApplication.class, args);
     }
       //sada222大阿萨德42
-      //qas
-      //qw我
-    //qwe的
 }
